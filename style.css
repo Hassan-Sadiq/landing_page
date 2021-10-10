@@ -1,0 +1,152 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+.section-one,.footer{
+    background-color: #1f2937;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+    padding-top:0;
+    gap:40px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+    
+}
+.first{
+    height:250px;
+    width:400px;
+}
+h1{
+    color:#f9faf8;
+    font-weight: bolder;
+    
+}
+.info-text{
+    color:#1f2937;
+    font-size: 36px;
+    text-align:center;
+}
+h2{
+    color:#f9faf8;
+    font-size: 24px;
+}
+li{
+    margin:8px;
+    font-size: 18px;
+}
+.text{
+    display:flex;
+    width:500px;
+    flex-wrap:wrap;
+}
+p{
+    color:#e5e7eb;
+    margin:0px;
+}
+button{
+    background-color: #3882f6;
+    border:none;
+    font-weight: 900;
+    font-size:20px;
+    color:white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width:150px;
+    height:40px;
+    flex-grow: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.image-text{
+    color:#1f2937;
+    margin-top:8px;
+    text-align:center;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+.image{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+    border:4px solid seagreen;
+}
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:150px;
+    padding:8px;
+}
+.section-three{
+    background-color: #e5e7eb;
+    display:flex;
+    padding:50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    height:250px;
+    margin-top:12px;
+    flex:1;
+}
+.plain-text{
+    font-style: italic;
+    color:#1f2937;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.sayer{
+    margin-top:16px;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+.last-section{
+    box-sizing: border-box;
+    display: flex;
+    width:1000px;
+    padding:40px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    align-self: center;
+    margin-top: 60px;
+    height:auto;
+    border-radius: 4px;
+}
+.action-text{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.border{
+    align-self: flex-end;
+    border:2px solid white;
+    margin-left:50px;
+}
+.footer{
+    margin-top:60px;
+    text-align: center;
+    color:#e5e7eb;
+    
+}
